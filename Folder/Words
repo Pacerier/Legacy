@@ -10,6 +10,7 @@ p316, ok just realiez that this would be hideous in a monorep so need to rework 
 p318, looks like i can jsut give each folder its own changelog acutally. ie a Words file. and global edits can use the top lvl file. ok, in fact, it looks like within a subrep i can khave such folders as well ad infinitum
 - p322, ok let me just do the universe part first assuming this is perfect and i dun care about how hideous it would be in monoreps whichn btw i also already tot of this ytd night too, the
 p339, ok i think its working, but unsure
- ! syntax now points to within the world
+! syntax now points to within the world
+# re p, fkinghell screwed up github editor added a spacein front of teh ! was a space in front. looks like a prepatchn is neded now since its no longer in syntax and meaning whatn its supposed to mean wihtout assuming that that space in front of the `!` was not there. anyway insfmrthis, i realiezd that prolly there would be a way to just edit in some exceptions into the Syntax but that would be really ugly
 
-anyway i just relaized smt. if i really screw smt up in the syntax, i dun have to redo a new attempt, i can simply release a sepaerate pre'patch' that fixes it to syntactically corredct.
+# anyway i just relaized smt. if i really screw smt up in the syntax, i dun have to redo a new attempt, i can simply release a sepaerate pre'patch' that fixes it to syntactically corredct.
