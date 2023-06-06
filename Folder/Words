@@ -13,4 +13,4 @@ p339, ok i think its working, but unsure
 ! syntax now points to within the world
 # re p, fkinghell screwed up github editor added a spacein front of teh ! was a space in front. looks like a prepatchn is neded now since its no longer in syntax and meaning whatn its supposed to mean wihtout assuming that that space in front of the `!` was not there. anyway insfmrthis, i realiezd that prolly there would be a way to just edit in some exceptions into the Syntax but that would be really ugly
 
-# anyway i just relaized smt. if i really screw smt up in the syntax, i dun have to redo a new attempt, i can simply release a sepaerate pre'patch' that fixes it to syntactically corredct.
+# anyway i just relaized smt. if i really screw smt up in the syntax, i dun have to redo a new attempt, i can simply release a sepaerate pre'patch' that fixes it to syntactically corredct. this wya i can be very much careless, and in any case the idea itself is a great idea, a file format that uses patches to fixup an invalid file to a valid file before some actions are done
