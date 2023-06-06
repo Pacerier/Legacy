@@ -7,3 +7,4 @@
 ! syntax done
 - hope no bugs with the logic else gotta do n=2
 p316, ok just realiez that this would be hideous in a monorep so need to rework it
+p318, looks like i can jsut give each folder its own changelog acutally. ie a Words file. and global edits can use the top lvl file.
