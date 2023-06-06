@@ -1,1 +1,3 @@
 the file </./Syntax> is like the entrypoint/"main"/index.html. it defines the syntax
+the file </Words> is interpreted as a list of "word"s. first divide it into lines, each line can start with any char, but if it starts with the char  `-` itself folowed by a space char, and they are not escaped, then that is not content but demarcation, and it indicates the start of a new item in the list right at the point where the space char ends.
+
