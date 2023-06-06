@@ -11,3 +11,5 @@ p318, looks like i can jsut give each folder its own changelog acutally. ie a Wo
 - p322, ok let me just do the universe part first assuming this is perfect and i dun care about how hideous it would be in monoreps whichn btw i also already tot of this ytd night too, the
 p339, ok i think its working, but unsure
  ! syntax now points to within the world
+
+anyway i just relaized smt. if i really screw smt up in the syntax, i dun have to redo a new attempt, i can simply release a sepaerate pre'patch' that fixes it to syntactically corredct.
