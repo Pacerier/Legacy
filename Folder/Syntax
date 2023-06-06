@@ -1,3 +1,5 @@
 the file </./Syntax> is like the entrypoint/"main"/index.html. it defines the syntax
 the file </Words> is interpreted as a list of "word"s. first divide it into lines, each line can start with any char, but if it starts with the char  `-` itself folowed by a space char, and they are not escaped, then that is not content but demarcation, and it indicates the start of a new item in the list right at the point where the space char ends.
+ok so these items of the list, each one is a commentary. the subject is all the git commits done before the commit that added that item to the list (plus the commit itself) , ie referring to the changeset, less the part that is referring to the item itself
+btw you can only add items to the list not subtract. by appending
 
