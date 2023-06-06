@@ -1,0 +1,2 @@
+- attempt n=1
+- the idea is that if theres a syntax error while creating the syntax then obviously the repo becomes a stillborn. so i'll need to create a new repo from scratch, a complete new start other than n will be increased by 1
