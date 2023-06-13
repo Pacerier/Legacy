@@ -1,0 +1,10 @@
+avascript: document.body.innerHTML =''
+;document.body.innerHTML =`
+<textarea></textarea>
+<textarea></textarea>
+<textarea></textarea>
+<textarea></textarea>
+<textarea></textarea>
+<textarea></textarea>
+<textarea></textarea>
+`
