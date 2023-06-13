@@ -7,3 +7,4 @@
 # re p-commit, hell it seems liek i should just redefine the ! and - such that the - is simply defined as a publication todo[think]
 # so one thing i cant do is tht i cant start a new groupcommit while inside a groupcommit. thus todo[]possibly come up with a syntax to do that. and nowtyping i jus gonna branch
 - looks better
+# need to undo an item in this file so need change syntax todo[]
