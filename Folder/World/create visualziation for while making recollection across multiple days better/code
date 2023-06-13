@@ -1,10 +1,16 @@
-avascript: document.body.innerHTML =''
-;document.body.innerHTML =`
-<textarea></textarea>
-<textarea></textarea>
-<textarea></textarea>
-<textarea></textarea>
-<textarea></textarea>
-<textarea></textarea>
-<textarea></textarea>
+avascript:let d =document
+;d.body.innerHTML ='', d.body.style.height =d.documentElement.style.height ='100%'
+
+;d.body.innerHTML =`
+<textarea></textarea>   <textarea></textarea>   <textarea></textarea>
+<textarea></textarea>   <textarea></textarea>   <textarea></textarea>
+<textarea></textarea>   <textarea></textarea>   <textarea></textarea>
+<textarea></textarea>   <textarea></textarea>   <textarea></textarea>
+<textarea></textarea>   <textarea></textarea>   <textarea></textarea>
+<textarea></textarea>   <textarea></textarea>   <textarea></textarea>
+<textarea></textarea>   <textarea></textarea>   <textarea></textarea>
 `
+
+;document.querySelectorAll('textarea').forEach(_ =>_.style.height ='30%')
+
+;;
