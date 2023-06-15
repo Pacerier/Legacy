@@ -1,6 +1,7 @@
 #intiensrg. so now i want to write 3 changemsgs, as forgot to do it. therefore there is some use case for going back in time to group pending(nath?) commits into multiple groups.
 - dn draw textareas
 - dn draw gaps + scoping of "page reset"
-- dn saveload textarea contents.
-# v intiesng. realiezd since the syntax nonindented no lnoger has meaning. so i can acutlaly just use it fo rthis purpose. todo[] fix the syntax<- then, which i cant be bothered to do now so jsut do in prepatch. that, ok so need some syntax, but in any case if number of items match number fo comits then obviously each one is for each
+- dn saveload textarea contents.##v intiesng. realiezd since the syntax nonindented no lnoger has meaning. so i can acutlaly just use it fo rthis purpose. todo[] fix the syntax<- then, which i cant be bothered to do now so jsut do in prepatch. that, ok so need some syntax, but in any case if number of items match number fo comits then obviously each one is for each
 # re p, anywy `<-` first time use this syntax. means push the word as first arg of latest `[]`
+# so isnfmrm last2 commit tot of that really neded commenting to work behind lines. so todo[syntax] fix it to allow two hashtags as commenting syntax. intesring. nowtpiyng i see that re p, i dun actually nbeed `<-` as it seems like for all instances i  could have just written `todo[syntax] foobar`
+
