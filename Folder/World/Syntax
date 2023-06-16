@@ -11,3 +11,4 @@ ok now i want a space char is not deifnifetly required after the `-` or `!` char
 looks like im done
 one more thing, not just `-` or `!` char but `#` is also accepted. `#` however indicates that the unit is not an item in the list. so its like for comments/drafting. in this case drafting will not need to affect the contents of the preiovus commentary
 re `2+ items in a commit`. ensure taht they are indented. and since the `--` syntax is no longer resreved, use taht for indentation. 
+if you need to undo items, just remove them from the back, cap 1 for now

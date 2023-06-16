@@ -6,3 +6,5 @@
 # so really too often need to write commit msg before commit, tho ml long ago alreayd knew this. anyway shld come up w a syntax for it todo[]
 # re p-commit, hell it seems liek i should just redefine the ! and - such that the - is simply defined as a publication todo[think]
 # so one thing i cant do is tht i cant start a new groupcommit while inside a groupcommit. thus todo[]possibly come up with a syntax to do that. and nowtyping i jus gonna branch
+- caps looks better + forgotten about foobar
+# need to undo an item in this file so need change syntax done[]
