@@ -1,10 +1,19 @@
-avascript: document.body.innerHTML =''
-;document.body.innerHTML =`
-<textarea></textarea>
-<textarea></textarea>
-<textarea></textarea>
-<textarea></textarea>
-<textarea></textarea>
-<textarea></textarea>
-<textarea></textarea>
+avascript:{ let d =document
+;d.body.innerHTML ='', d.body.style.height =d.documentElement.style.height ='100%'
+}{ let d =document
+;d.body.innerHTML =`
+<textarea></textarea><textarea></textarea><textarea></textarea><textarea></textarea><textarea></textarea>
+&nbsp;&nbsp;<textarea></textarea><textarea></textarea>
+<br>
+<textarea></textarea><textarea></textarea><textarea></textarea><textarea></textarea><textarea></textarea>
+&nbsp;&nbsp;<textarea></textarea><textarea></textarea>
+<br>
+<textarea></textarea><textarea></textarea><textarea></textarea><textarea></textarea><textarea></textarea>
+&nbsp;&nbsp;<textarea></textarea><textarea></textarea>
+<br>
 `
+
+;document.querySelectorAll('textarea').forEach((_,x) =>(_.style.height ='30%', _.value=localStorage.getItem(x)??'', _.oninput=function(){
+  try{  localStorage.setItem(x, this.value)  }catch(e){alert(e)}
+}))
+}
