@@ -5,3 +5,10 @@
 # re p, anywy `<-` first time use this syntax. means push the word as first arg of latest `[]`
 # so isnfmrm last2 commit tot of that really neded commenting to work behind lines. so todo[syntax] fix it to allow two hashtags as commenting syntax. intesring. nowtpiyng i see that re p, i dun actually nbeed `<-` as it seems like for all instances i  could have just written `todo[syntax] foobar`
 
+# i fnrkaly cant believe it. jsut a simple merge take so muhc time when it is supposed to be a 1click affair but github cant show button for resolve conflict because there are filename renames. lol. wtf. that not all, after i made the filenames the same manully it even tho able to let me open the UI for resolving conflict, after i did that it did an extra merge in the other direction. defker. wasted me so much time dealing wiht its bugs and craps. at least i came up with 2 q[]s:
+#  - !!! github web ui logic: after editing the file to resolve merge conflict and marking it as resolved and submiting it, GH does a merge in the opposite direction (lol?), then you need to click the the final greenbutton `Merge pull request` for it to do a zero-changes merge in the proper direction before it marks the PR as completed. Yet when you go to the webpage for that commit, it deosnt says "zero changes" but `Showing x changes file y additions and z deletions` wtf! Where did it pull these numbers from if not out of its arse and how to fix this bug?
+#  - !!! github logic: github web UI logic: whytf does resolving merge conflict instead makes an (extra) Merge in the other direction (ie main into foo) before it actually does the wanted merge when you click the final greenbutton `Merge pull request`? how to stop this behavior?
+# anyway forgotten to edit Words file to indicate all those unnecessary commits before i start the emrge conflict process so now i got new syntax-> which is `SKIP1` for skipping one commit and so todo[] it in prepatch
+- SKIP1. dn for eanbling GH resolve commit UI
+
+
